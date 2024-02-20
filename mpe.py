@@ -161,8 +161,8 @@ def menu():
 	print(f'┌─[{h}1\x1b[1;97m] Super Multi Bruteforce Facebook ')
 	print(f'\x1b[1;97m├─[{h}2\x1b[1;97m] Crack Hasil Eror')
 	print(f'\x1b[1;97m└─[{h}0\x1b[1;97m] Back       ')
-	_____luciver__xploit_____ = input(f'\n└───➢ Pilih : ')
-	if _____luciver__xploit_____ in ['1']:
+	_____l__p_____ = input(f'\n└───➢ Pilih : ')
+	if _____l__p_____ in ['1']:
 	        idt = input('\n┌─➢ ID Target : ')
 	        dump(idt,"",{"cookie":cok},token)
 	        setting()
@@ -409,6 +409,6 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	time.sleep(3)
+	time.sleep(5)
 	menu()
     
